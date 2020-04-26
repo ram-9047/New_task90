@@ -1,0 +1,155 @@
+/* !!!!!!!!!!!!!-----------------Home-----Page-----------!!!!!!!!!!!!!! */
+
+.homepage {
+  text-align: center;
+  margin-top: 6rem;
+}
+.title {
+  font-weight: normal;
+  font-size: 2rem;
+}
+
+/*!!!!!!!!!!!!!---------- Account details---------------!!!!!!!!!!!!!! */
+.details_title {
+  font-size: 2rem;
+  margin: 1rem 35rem;
+}
+.details_nav {
+  margin: 0 28rem;
+}
+.details_total_order,
+.details_create_order,
+.log_out_btn {
+  margin: 0.5rem 1rem;
+  font-size: 1.2rem;
+  background-color: transparent;
+  outline: none;
+  border: none;
+}
+.details_total_order:hover {
+  border: white;
+  border-radius: 15px;
+  background-color: rgb(33, 50, 206);
+  color: whitesmoke;
+}
+.details_create_order:hover {
+  border: white;
+  border-radius: 15px;
+  background-color: green;
+  color: whitesmoke;
+}
+.log_out_btn:hover {
+  border: red;
+  border-radius: 15px;
+  background-color: red;
+  color: white;
+}
+
+.total_order {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  margin-left: 2rem;
+  position: absolute;
+}
+.all_list {
+  position: relative;
+}
+
+.order_list {
+  width: 18rem;
+  margin-bottom: 1.5rem;
+  list-style: none;
+}
+.list_update_btn {
+  font-size: 1rem;
+  position: absolute;
+  top: 50%;
+  right: 40%;
+  text-align: center;
+  visibility: hidden;
+}
+
+.all_list:hover > .list_update_btn {
+  visibility: visible;
+  opacity: 1;
+}
+.all_list:hover > .order_list {
+  opacity: 0.1;
+}
+.edit_form {
+  position: absolute;
+  z-index: 5;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  top: 0;
+  right: 5%;
+  background-color: white;
+  width: 18rem;
+}
+label {
+  width: 18rem;
+  margin-top: 1px;
+  display: flex;
+  justify-content: space-between;
+}
+
+label input {
+  padding: 2px;
+  width: 70%;
+}
+p {
+  margin: 1.9px;
+}
+
+.update_btn {
+  margin: 0.5rem 6rem;
+  font-size: 12px;
+  outline: none;
+  margin-bottom: 1rem;
+  width: 5rem;
+}
+.update_btn:hover {
+  background-color: yellow;
+  border: 1px solid yellow;
+  border-radius: 5px;
+}
+
+/* Add New Order */
+.new_order_title {
+  text-align: center;
+  font-size: 2rem;
+  font-weight: lighter;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+.flex {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0.5rem 0;
+}
+.form_box {
+  margin: 0 30rem;
+  align-items: center;
+}
+
+.back_btn,
+.add_order_btn {
+  font-size: 1rem;
+  background-color: transparent;
+  border: 1px solid white;
+  color: green;
+  margin: 1rem 10rem;
+  outline: none;
+}
+.back_btn {
+  margin: 0 40rem;
+}
+.back_btn:hover,
+.add_order_btn:hover {
+  background-color: green;
+  border: 1px solid green;
+  color: white;
+  border-radius: 12px;
+}
